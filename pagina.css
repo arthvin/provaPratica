@@ -1,0 +1,40 @@
+body,
+h1,
+h2,
+p,
+ul,
+ol,
+li,
+figure,
+table,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    min-height: 100%;
+}
+
+main{
+    display: grid;
+}
+
+footer{
+    display: grid;
+    background-color: #333;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0074d9;
+}
+
+h2 estados-label{
+    display: grid; 
+}
