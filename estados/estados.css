@@ -22,6 +22,12 @@ main{
 li {
     list-style-type: none;
     padding: 7px;
+    color: #333;
+  }
+
+  li :hover{
+    color: #333;
+    opacity: 0.8;  
   }
 
   footer{
