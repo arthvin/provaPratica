@@ -20,12 +20,16 @@ body {
 
 main{
     display: grid;
+    justify-content: center;
 }
 
 footer{
-    display: grid;
+    display: flex;
+    flex-direction: column;
     background-color: #333;
     padding: 20px;
+    box-sizing: border-box;
+    bottom: 0;
 }
 
 header {
@@ -37,4 +41,9 @@ header {
 
 h2 estados-label{
     display: grid; 
+}
+
+#links{
+    display: grid;
+    padding: 7px;
 }
